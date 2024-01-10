@@ -1,7 +1,7 @@
 import SubmitResume from './components/emailResume';
 import IndustrySelect from './components/IndustrySelect';
-import "./page.css";
-import "./components/sharedCss.css";
+import './page.css';
+import './shared.css';
 // import { jobListings } from './components/SharedOptions.js';
 import { featuredJobListings } from './components/JobListings.js';
 import { jobListings } from './components/JobListings.js';
@@ -12,7 +12,6 @@ import CardTitle from 'react-bootstrap/Card';
 import CardText from 'react-bootstrap/Card';
 import CardFooter from 'react-bootstrap/Card';
 import "./headerImage.jpg";
-const jobCount = [0];
 
 // const arrayExamples = [{
 //   thing01: 'Dad', thing02: 'known as father',
