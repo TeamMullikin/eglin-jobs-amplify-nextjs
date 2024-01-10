@@ -1,7 +1,7 @@
 import SubmitResume from './components/emailResume';
 import IndustrySelect from './components/IndustrySelect';
 import "./page.css";
-import "./components/sharedCss.css"
+import "./components/sharedCss.css";
 // import { jobListings } from './components/SharedOptions.js';
 import { featuredJobListings } from './components/JobListings.js';
 import { jobListings } from './components/JobListings.js';
@@ -68,7 +68,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-1 justify-center">
           {featuredJobListings.map((job) => (
             // <div className="p-6 border border-red-300 rounded-lg shadow odd:white even:bg-slate-100 text-black" key={job.id}>
-            <div className="w-screen lg:w-1/2 p-6 border border-red-200 border-1 bg-amber-50 rounded-lg shadow text-black" key={job.id}>
+            <div className="w-screen lg:w-1/2 p-6 border border-red-200 border-1 bg-amber-50 rounded-lg shadow text-black" key={job['web-scraper-order']}>
               <Card className="">
                 <CardHeader className="text-sm font-bold">{job.jobCategory}</CardHeader>
                 <CardBody>
@@ -91,7 +91,7 @@ export default function Home() {
       <hr className='mx-auto w-3/4 h-px my-4 bg-gray-500 border-0 h-1' />
       <div className="flex flex-wrap justify-center">
         {jobListings.map((job) => (
-          <div className="sm:flex-none flex-wrap w-screen lg:w-1/3 lg:max-w-sm p-6 border border-gray-200 rounded-lg shadow odd:bg-white even:bg-slate-50 text-black" key={job.id}>
+          <div className="sm:flex-none flex-wrap w-screen lg:w-1/3 lg:max-w-sm p-6 border border-gray-200 rounded-lg shadow odd:bg-white even:bg-slate-50 text-black" key={job['web-scraper-order']}>
             <Card className="">
               <CardHeader className="text-sm font-bold">{job.jobCategory}</CardHeader>
               <CardBody>
