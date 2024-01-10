@@ -1,0 +1,341 @@
+.page .lander {
+  /* padding: 80px 0; */
+  /* padding: 0px 0; */
+  /* background-color: blue; */
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* button {
+  background-color: rgb(195, 0, 13);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  border-color: rgb(207, 1, 1);
+  border-width: 2px;
+} */
+
+.page .lander h1 {
+  font-weight: bold;
+  /* color: darkblue; */
+  color: white;
+  margin-top: 0;
+}
+
+.page .lander h2 {
+}
+
+.Home .lander h3 {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: lighter;
+}
+
+.page .lander .tag-line {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 150%;
+  font-weight: lighter;
+  color: gray;
+}
+
+.selectReact {
+  text-align: left
+}
+
+.sorter {
+  display: flex;
+  padding-top: .5%;
+  /* margin-top: 1%; */
+  margin-bottom: -5%;
+}
+
+#sorter {
+  padding-right: 2%;
+  padding-bottom: 1.5%;
+}
+
+.dropDownSorter {
+  background-color: rgba(220, 220, 220, 0.452);
+  border-color: rgba(119, 136, 153, 0.431);
+  border-radius: 5%;
+  width: 200px;
+  height: 25px;
+}
+
+#slogan {
+  font-size: 120%;
+  /* color: white; */
+  color: white;
+  /* font-size: 100%; */
+}
+
+.page .lander .headline {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 180% !important;
+  font-weight: bold;
+  /* font-size: 100%; */
+  color: white !important;
+  /* margin-top: 2%; */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* #job-button {
+  font-size: 110%;
+  margin: 20px;
+} */
+
+.page .lander .encouragementHeader {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: 7%;
+  color: grey;
+}
+
+#flex-container {
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  align-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #flex-container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .page .lander .encouragement {
+    display: none;
+  }
+
+  .page .lander .topLander {
+    /* padding-top: 20px; */
+  }
+}
+
+.flex-item {
+  margin-top: 1.25%;
+}
+
+#flex-item-short {
+  margin-top: 0;
+}
+
+.listGroupItem {
+  /* border-radius: 15px; */
+  border: none;
+}
+
+.listGroupItemPromo {
+  background: lightgoldenrodyellow;
+  border-radius: 15px;
+  border: none;
+}
+
+/* .listing-row {
+
+} */
+
+/* .listing-column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listing-item {
+  margin-top: 0%;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.dropDown {
+  min-width: 280px;
+  width: 100%;
+  height: 50px;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: aliceblue;
+  border: none;
+  /* border-bottom: 2px solid #962d22; */
+  color: black;
+  padding: 10px;
+  padding-right: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Adding transition effect */
+  transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+}
+/* For IE <= 11 */
+.dropDown::-ms-expand {
+  display: none; 
+}
+.dropDown:hover {
+  color: white;
+  background-color: brown;
+  /* border-bottom-color: #DCDCDC; */
+}
+/* .select-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 30px;
+  height: 36px;
+  pointer-events: none;
+  border: 2px solid #962d22;
+  padding-left: 5px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.select-icon {
+  transition: fill 0.3s ease;
+  fill: white;
+} */
+.dropDown:hover ~ .select-icon,
+.dropDown:focus ~ .select-icon {
+  background-color: white;
+  border-color: #DCDCDC;
+}
+.dropDown:hover ~ .select-icon,
+.dropDown:focus ~ .select-icon {
+  fill: #c0392b;
+}
+
+.page .lander p {
+  color: #999;
+}
+
+.page .notes h4 {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: 600;
+  overflow: hidden;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.page .notes p {
+  color: #666;
+}
+
+.jobs {
+  width: 100%;
+}
+
+.topLander {
+  /* background-image: url(../flagBackground.jpg); */
+  background-image: url(/headerImage.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+  background-position: center;
+  background-size: auto;
+  box-shadow: 0 0 1px 1px white inset;
+  padding-top: 30px;
+}
+
+#stateList {
+  display: none;
+}
+
+#regionList {
+  display: none;
+}
+
+#ultimatePlus {
+  color: green;
+}
+
+/* .listingButtonUltimate {
+  border: solid;
+  border-color: lightgray;
+  background-color: lightgoldenrodyellow;
+  border-width: 1px;
+  width: 90%;
+} */
+
+ #authHomeListingActive {
+   /* border-color: lightslategray; */
+   border-color: lightgray;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: rgba(0, 0, 0, 0.612);
+   border-width: 1px;
+ }
+
+#authHomeListingWarning {
+  border-color: black;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-width: 2px;
+}
+
+#authHomeListingUrgent {
+  border-color: rgba(255, 0, 0, 0.53);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgba(165, 42, 42, 0.742);
+}
+
+.modal1 {
+  /* justify-content: space-between;
+  width: 100%;
+  margin: 0 auto; */
+  /* font-size: 90%; */
+}
+
+#disclaimer {
+  font-size: 80%;
+  color: grey;
+}
+
+#selectMoneyIcon, #selectNestEggIcon, #selectCalendarIcon {
+  font-size: larger;
+}
+
+#thickBlack {
+  border-color: darkgrey;
+  width: 75%;
+}
+
+#coupon {
+  width: 30%;
+}
+
+/* #FontAwesomeIcon {
+  margin-bottom: 200px;
+} */
+
+.toggleListingsButton {
+  color: grey;
+  font-size: h3;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  /* margin-right: 1%; */
+  /* margin-left: 90% */
+}
+
+/* .listing {
+  width: 50%;
+  height: 90px;
+  .flex: wrap;
+} */
+/* #industry {
+  color: red;
+  disabled: "disabled";
+} */

@@ -1,0 +1,164 @@
+/* App Main Setup - Header/Footer*/
+.App {
+  margin-top: 30px;
+}
+
+.App .navbar {
+  background-color: white;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  font-size: 110%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#find-a-job {
+  color: rgb(119, 119, 119);
+  text-decoration: none;
+}
+
+#find-a-job:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#post-a-job {
+  color: white;
+  border-radius: 2%;
+  border-color: brown;
+  background-color: brown;
+}
+
+#job-button {
+  background-color: rgb(195, 0, 13);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+#footer {
+  font-size: 90%;
+  background-color: white;
+  padding: 30px;
+  border-top: 9px;
+  border-radius: 9px;
+  border-color: black;
+  padding-bottom: 5px;
+  color: darkgray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Listing Button */
+
+.unauthListingButtonStandard {
+  border-left: white;
+  border-top: white;
+  border-right: white;
+  border-bottom: white;
+  border: solid;
+  border-color: rgb(231, 231, 231);
+  border-width: 1px;
+  width: 98%;
+  max-width: 800px;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.unauthListingButtonPremium {
+  /* border-color: rgb(252, 239, 182); */
+  /* background-color: rgb(252, 239, 182); */
+  border-color: rgba(252, 239, 182, 0.531);
+  background-color: rgba(252, 239, 182, 0.531);
+  border-width: 1px;
+  width: 98%;
+  max-width: 800px;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.unauthListingButtonUltimate {
+  border: solid;
+  border-color: rgb(207, 1, 1);
+  /* border-color: rgb(207, 1, 1); */
+  border-top: rgb(252, 239, 182);
+  border-right: rgb(252, 239, 182);
+  border-bottom: rgb(252, 239, 182);
+  /* background-color: rgb(252, 239, 182); */
+  background-color: rgb(252, 239, 182);
+  border-width: 4px;
+  /* border-width: 2px; */
+  width: 98%;
+  max-width: 800px;
+  margin-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.listing-column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listing-item {
+  margin-top: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* WHY ALL THE !important commands?????????????? */
+
+.listingChoice {
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upgradeHr {
+  /* font-family: 'Times New Roman', Times, serif !important; */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.upgradeList {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: medium !important;
+  text-align: left;
+  margin-left: -30px;
+  margin-right: -20px;
+}
+
+.costPerDay {
+  /* font-size: larger !important; */
+  font-family:Arial, Helvetica, sans-serif !important;
+}
+
+.listingButtonPreviewSmall {
+  color: darkgray !important;
+  font-size: 90%;
+  /* color: purple; */
+  margin-bottom: -9px;
+}
+
+.listingButtonPreviewMedium {
+  color: black !important;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: bold; */
+  font-size: large;
+  margin-bottom: 0px;
+}
