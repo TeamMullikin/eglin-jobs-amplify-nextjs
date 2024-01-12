@@ -7,10 +7,8 @@ const DecodeEmail = () => {
       const ascii = email.split('-')
       const ascii2 = JSON.parse("[" + ascii + "]")
     let res = String.fromCharCode(...ascii2)
-    let mailer = "mailto:" + atob(res) + "?subject=Resume for Eglin Jobs&body=Your%20name%3A%0AJob%20number%20(if%20any)%3A%0ACell%20number%3A"
-    // let mailer = atob(res)
+    let mailer = "mailto:" + atob(res) + "?subject=Resume for Eglin Jobs&body=Your%20full%20name%3A%0AJob%20numbers%3A%0APersonal%20email%20address%3A%0APersonal%20phone%20number%3A%0A%0A***Please%20attach%20your%20resume%20to%20this%20email.***"
     return mailer.toString()
-    // return atob(res)
   };
 
 export default DecodeEmail

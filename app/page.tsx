@@ -2,7 +2,6 @@ import SubmitResume from "./components/emailResume";
 import IndustrySelect from "./components/IndustrySelect";
 import "./page.css";
 import "./shared.css";
-// import { jobListings } from './components/SharedOptions.js';
 import { featuredJobListings } from "./components/JobListings.js";
 import { jobListings } from "./components/JobListings.js";
 import Card from "react-bootstrap/Card";
@@ -12,10 +11,6 @@ import CardTitle from "react-bootstrap/Card";
 import CardText from "react-bootstrap/Card";
 import CardFooter from "react-bootstrap/Card";
 import "./headerImage.jpg";
-import EncodeEmail from "./components/dataProtectEncoder";
-import DecodeEmail from "./components/dataProtectDecoder";
-// import ContactEmail from './components/EmailDataProtect';
-// import DataProtect from 'data-protect'
 
 // const arrayExamples = [{
 //   thing01: 'Dad', thing02: 'known as father',
