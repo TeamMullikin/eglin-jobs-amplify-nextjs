@@ -1,13 +1,19 @@
-'use client';
-import React from 'react'
+"use client";
+import { useState } from 'react'
+import React from "react";
+import DecodeEmail from "./dataProtectDecoder";
+
 
 const SubmitResume = () => {
+  const [mailerComplete, setMailerComplete] = useState("")
   return (
-    <div>
-<a href="mailto:joe@eglinjobs.com?subject=Resume for Eglin Jobs">Email us your Resume</a>
-{/* <button onClick={() => console.log('Click')}>Submit your Resume</button> */}
-</div>
-  )
-}
+<button onClick={() => setMailerComplete(DecodeEmail)}
+    className="p-2 bg-orange-700 text-white rounded-md">
+    <a href = {mailerComplete} >
+        Email us your Resume<br />
+      </a>
+      </button>
+  );
+};
 
-export default SubmitResume
+export default SubmitResume;

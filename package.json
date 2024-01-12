@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "aws-amplify": "^6.0.3",
+    "data-protect": "^1.0.5",
+    "javascript-obfuscator": "^4.1.0",
     "next": "^13.5.4",
     "react": "^18",
     "react-bootstrap": "^2.9.2",
